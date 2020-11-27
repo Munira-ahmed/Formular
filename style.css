@@ -1,0 +1,25 @@
+*{
+    margin: 1vh;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+header{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+form{
+    
+    width: 80%;
+   
+}
+
+fieldset{
+    width: 98%;
+}
+
+input{
+    padding-left: 3vh;
+}
