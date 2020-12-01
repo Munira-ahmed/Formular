@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>Formulär</header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>AnvändarUppgifter</legend>
+                <label> Name:
+                    <input type="text" id="firstname">      <!--Man kan lägga div runt label-->
+                </label>
+                <label>Email:
+                    <input type="text" id="email">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>BetalningsInformation</legend>
+                <input type="checkbox" name="payment">Klarna
+                <input type="checkbox" name="payment">Paypal
+                <input type="checkbox" name="payment">Swish
+            </fieldset>
+            <fieldset>
+                <legend>Frakt</legend>
+                <label >
+                    <input type="checkbox"> Free
+                </label>
+            </fieldset>
+            <button>Skicka in</button>
+        </form>
+    </main>
+</body>
+</html>
